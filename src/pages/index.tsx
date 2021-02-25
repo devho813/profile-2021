@@ -1,6 +1,11 @@
-import React from "react";
+import styled from '@emotion/styled'
+import React from 'react'
 function Home() {
-  return <div>hi</div>;
+  return <HomeContainer>hi</HomeContainer>
 }
 
-export default Home;
+export default Home
+
+const HomeContainer = styled.div`
+  color: blue;
+`
